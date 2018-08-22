@@ -1,2 +1,2 @@
 # Mask_RCNN
-My modification in the use of mask rcnn for accomplishing instance segmentation tasks
+Implementation of mask rcnn for accomplishing instance segmentation tasks, based on https://github.com/matterport/Mask_RCNN work
