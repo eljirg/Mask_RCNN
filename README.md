@@ -1,26 +1,25 @@
 # Mask_RCNN
 Implementation of mask rcnn for accomplishing instance segmentation tasks, based on https://github.com/matterport/Mask_RCNN work
 
-# Preparation
+### Preparation
 1. prepare environment with tensorflow-gpu installed
 2. copy this repository
 3. install necessary requirements
 4. install pycocotools (pip3 install git+https://github.com/waleedka/coco.git#subdirectory=PythonAPI)
 5. go to the repo folder you copied run (python3 setup.py install)
 
-# Customization notes:
+### Customization notes:
 
 There are two places where most of customization can be done:
 1. damage.py which hold the configuration of model
 2. mrcnn files, especially model.py which hold the default configuration of model (in order for change to take places in case you modify this file, you need to re do the step 5 of preparation.
 
-# Dataset making
+### Dataset making
 To make the dataset I used the labelme image annotation tool that can be obtained here, however i used the VIA format in order for the model to read the dataset, therefore it is bridged by a code i wrote.
 
 The image annotation tool can be seen here: https://github.com/wkentaro/labelme
 
-# Steps
-
+### Steps
 Training model:
 - To train the model you can use this setup:
   - `CUDA_VISIBLE_DEVICES=0 python3 Damage/damage.py train --dataset datasets/sample_4/ -- weights=coco --logs=logs`
