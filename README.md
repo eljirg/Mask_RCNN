@@ -37,9 +37,9 @@ To Show loss using tensorboard:
 - `CUDA_VISIBLE_DEVICES='' tensorboard --logdir=logs`
 
 # Progress Note:
-(x) Implement Adam
-()
-()
+[x] Implement Adam
+[]
+[]
 
 ### To add ###
 1. folder:
