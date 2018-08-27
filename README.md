@@ -15,7 +15,7 @@ There are two places where most of customization can be done:
 2. mrcnn files, especially model.py which hold the default configuration of model (in order for change to take places in case you modify this file, you need to re do the step 5 of preparation.
 
 ### Dataset making
-To make the dataset I used the labelme image annotation tool that can be obtained here, however i used the VIA format in order for the model to read the dataset, therefore it is bridged by a code i wrote.
+To make the dataset I used the labelme image annotation tool that can be obtained here, however i used the VIA format in order for the model to read the dataset, therefore it need to be bridged.
 
 The image annotation tool can be seen here: https://github.com/wkentaro/labelme
 
@@ -35,6 +35,11 @@ To Splash color on video:
 
 To Show loss using tensorboard:
 - `CUDA_VISIBLE_DEVICES='' tensorboard --logdir=logs`
+
+# Progress Note:
+(x) Implement Adam
+()
+()
 
 ### To add ###
 1. folder:
